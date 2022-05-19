@@ -51,17 +51,11 @@ int main()
         printf("%d ^ %d = %d",first_num,sec_num, power_of);
         break;
     case 's':
-      printf("You can do find the square root:\n");
+      printf("You can find the square root:\n");
       printf("Enter your number: ");
       scanf("%lf",&square_root);
       printf("%lf",sqrt(square_root));
       break;
-
-
-
-
     }
-      
-
   return 0;
 }
